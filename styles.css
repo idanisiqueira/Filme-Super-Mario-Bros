@@ -177,3 +177,46 @@ input {
 .close-2:hover {
     opacity: 80%;
 }
+
+@media screen and (max-width:650px) {
+
+    body {
+        display: block;
+        padding-top: 15px;
+    }
+
+    .resume {
+        width: 365px;
+        font-size: 14px;
+        margin-left:15px;
+    }
+
+    .mario-bros {
+        width: 350px;
+    }
+
+    .brothers {
+        margin-left:25px;
+    }
+
+    .first {
+        margin-left:20px;
+        animation: neon 0.08s ease-in-out infinite alternate;
+    }
+
+    form {
+        top: 195px;
+        left: -299px;
+        transition: left 1s linear;
+    }
+
+    .box-all {
+        top:200px;
+    }
+
+    .close-2 {
+        top: -25px;
+        right: 1px;
+    }
+}
+
