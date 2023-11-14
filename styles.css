@@ -201,7 +201,6 @@ input {
 
     .first {
         margin-left:20px;
-        animation: neon 0.08s ease-in-out infinite alternate;
     }
 
     form {
